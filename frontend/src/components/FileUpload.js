@@ -2,6 +2,9 @@ import React, { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import axios from "axios";
 
+// API Base URL
+const API_BASE_URL = "https://upsc-backend.onrender.com";
+
 const FileUpload = ({ onUploadSuccess }) => {
     const [uploading, setUploading] = useState(false);
     const [message, setMessage] = useState("");
@@ -25,7 +28,7 @@ const FileUpload = ({ onUploadSuccess }) => {
         formData.append("difficulty", difficulty);
 
         axios
-            .post("http://localhost:5000/upload", formData, {
+            .post(`${API_BASE_URL}/upload`, formData, {
                 headers: { "Content-Type": "multipart/form-data" },
             })
             .then((response) => {
