@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which of the following sector-wise employment data is the latest available, as per the text?",
+    "options": {
+      "A": "2020-21",
+      "B": "2018-19",
+      "C": "2011-12",
+      "D": "2004-05"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "According to the text, what percentage of the Indian workforce was employed in the informal sector?",
+    "options": {
+      "A": "6.5%",
+      "B": "81%",
+      "C": "23.3%",
+      "D": "70%"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Which of the following is NOT mentioned as a disadvantage of formalizing the Indian economy?",
+    "options": {
+      "A": "Exclusion of population",
+      "B": "Poverty and destitution",
+      "C": "Increased trade union power",
+      "D": "Additional costs on informal economy"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "What is the definition of 'work' according to the text?",
+    "options": {
+      "A": "A contract between two parties where work is paid for",
+      "B": "Carrying out of tasks requiring the expenditure of mental and physical effort with the objective of production of goods and services that cater to human needs.",
+      "C": "Employment out of one's own will",
+      "D": "Governed by formal rules and regulations"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "According to the text, a person is considered unemployed by Current Weekly Status (CWS) if:",
+    "options": {
+      "A": "They were not working, but were either seeking or available for work for the major part of the reference year.",
+      "B": "They had not worked even for one hour during the week, but were seeking or available for work.",
+      "C": "They are employed in a job where their presence or absence does not make any difference to the output of the economy.",
+      "D": "Unemployment ranging between 2 to 3% in the country"
+    },
+    "correctAnswer": "B"
+  }
+]
